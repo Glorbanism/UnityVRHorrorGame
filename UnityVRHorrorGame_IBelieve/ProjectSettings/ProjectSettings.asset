@@ -141,8 +141,6 @@ PlayerSettings:
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: -5234498362645724882, guid: 2fe0d416a4f25cd428d9a20cbed3f837, type: 2}
-  - {fileID: 11400000, guid: 77c91f2acfd48b84dadd83354a8b52fd, type: 2}
   - {fileID: 11400000, guid: 3b987ab5918ef394ca6e4cfcc74fc441, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -163,7 +161,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.DefaultCompany.UnityVRHorrorGame_IBelieve
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -848,7 +847,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
   cloudProjectId: 2696a9c6-5524-4842-a99e-053dedaf64d4
   framebufferDepthMemorylessMode: 0
